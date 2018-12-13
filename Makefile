@@ -23,7 +23,7 @@ AWS_DEFAULT_REGION = us-west-2
 all: ami
 
 validate:
-	packer validate eks-worker-al2.json
+	packer validate eks-worker-coreos.json
 
 ami: validate
-	packer build -var source_ami_id=$(SOURCE_AMI_ID) eks-worker-al2.json
+	packer build -var source_ami_id=$(SOURCE_AMI_ID) eks-worker-coreos.json
