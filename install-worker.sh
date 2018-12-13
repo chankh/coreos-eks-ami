@@ -51,7 +51,7 @@ sudo sha512sum -c cni-amd64-${CNI_VERSION}.tgz.sha512
 sudo tar -xvf cni-amd64-${CNI_VERSION}.tgz -C /opt/cni/bin
 rm cni-amd64-${CNI_VERSION}.tgz cni-amd64-${CNI_VERSION}.tgz.sha512
 
-CNI_PLUGIN_VERSION=${CNI_PLUGIN_VERSION:-"v0.7.1"}
+CNI_PLUGIN_VERSION=${CNI_PLUGIN_VERSION:-"v0.7.4"}
 wget https://github.com/containernetworking/plugins/releases/download/${CNI_PLUGIN_VERSION}/cni-plugins-amd64-${CNI_PLUGIN_VERSION}.tgz
 wget https://github.com/containernetworking/plugins/releases/download/${CNI_PLUGIN_VERSION}/cni-plugins-amd64-${CNI_PLUGIN_VERSION}.tgz.sha512
 sudo sha512sum -c cni-plugins-amd64-${CNI_PLUGIN_VERSION}.tgz.sha512
