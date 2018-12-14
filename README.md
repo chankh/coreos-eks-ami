@@ -1,5 +1,7 @@
 # Amazon EKS AMI Build Specification for CoreOS
 
+![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiL1dvUlZIQ2lFSXZqMk4yS2xrT2lmWmd0K3c4ZGVWcEJlMDlvQVdzT3VwVXR0U1pVekR0TzRTamtYZzBybXo5YWkxY3ZMcDYrekY0Q2x5TjNIelQxUndjPSIsIml2UGFyYW1ldGVyU3BlYyI6IjEySW1yWnBsNGhnRnlYUHAiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
 This repository contains resources and configuration scripts for building a
 custom Amazon EKS AMI with [HashiCorp Packer](https://www.packer.io/). This is
 the same configuration that Amazon EKS uses to create the official Amazon
